@@ -14,61 +14,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="JCTreeDemo1.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="JCTreeDemo1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-test/my/JCTreeTest/JCTreeDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+            <state relative-caret-position="361">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tokens.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Tokens.java">
+      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="115" column="25" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="25" />
+            <state relative-caret-position="489">
+              <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JCTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/JCTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="600" column="45" selection-start-line="600" selection-start-column="33" selection-end-line="600" selection-end-column="45" />
               <folding>
-                <element signature="e#7039#7040#0" expanded="true" />
-                <element signature="e#7086#7087#0" expanded="true" />
+                <element signature="e#11304#11305#0" expanded="true" />
+                <element signature="e#11342#11343#0" expanded="true" />
+                <element signature="e#15494#15504#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaCompiler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/main/JavaCompiler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="627" column="46" selection-start-line="627" selection-start-column="26" selection-end-line="627" selection-end-column="46" />
-              <folding>
-                <element signature="e#18229#18245#0" expanded="true" />
-                <element signature="e#20303#20324#0" expanded="true" />
-                <element signature="e#20380#20388#0" expanded="true" />
-                <element signature="e#21402#21403#0" expanded="true" />
-                <element signature="e#21475#21476#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavacParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavacParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="3099" column="32" selection-start-line="3099" selection-start-column="29" selection-end-line="3099" selection-end-column="32" />
-              <folding>
-                <element signature="e#117409#117417#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParserFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/ParserFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="84" column="23" lean-forward="true" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -93,6 +66,7 @@
       <find>tokenizer</find>
       <find>getCharContent</find>
       <find>parseCompilationUnit</find>
+      <find>public</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -148,16 +122,6 @@
             <path>
               <item name="javac" type="b2602c69:ProjectViewProjectNode" />
               <item name="javac" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javac" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="javac" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javac" type="462c0819:PsiDirectoryNode" />
               <item name="TestClass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -195,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JCTreeDemo1.TokensTest">
+  <component name="RunManager" selected="JUnit.JCTreeDemo1.javaCompilerParse">
     <configuration name="JavacStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="my.test.JavacStarter" />
       <module name="javac" />
@@ -317,8 +281,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JCTreeDemo1.TokensTest" />
         <item itemvalue="JUnit.JCTreeDemo1.javaCompilerParse" />
+        <item itemvalue="JUnit.JCTreeDemo1.TokensTest" />
         <item itemvalue="Application.JavacStarter" />
       </list>
     </recent_temporary>
@@ -333,32 +297,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564017909734</updated>
-      <workItem from="1564017911124" duration="17874000" />
+      <workItem from="1564017911124" duration="20028000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JCTreeDemo1_javaCompilerParse - 2019.07.25 at 15h 55m 22s.xml">
-      <configuration name="JCTreeDemo1.javaCompilerParse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JCTreeDemo1_javaCompilerParse - 2019.07.25 at 15h 56m 00s.xml">
-      <configuration name="JCTreeDemo1.javaCompilerParse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JCTreeDemo1_javaCompilerParse - 2019.07.25 at 16h 08m 33s.xml">
-      <configuration name="JCTreeDemo1.javaCompilerParse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JCTreeDemo1_javaCompilerParse - 2019.07.25 at 16h 25m 47s.xml">
-      <configuration name="JCTreeDemo1.javaCompilerParse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JCTreeDemo1_javaCompilerParse - 2019.07.25 at 16h 29m 17s.xml">
-      <configuration name="JCTreeDemo1.javaCompilerParse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 16h 49m 32s.xml">
-      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 16h 51m 51s.xml">
-      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 16h 56m 44s.xml">
       <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
     </history-entry>
@@ -368,9 +311,30 @@
     <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 16h 57m 44s.xml">
       <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 16h 58m 03s.xml">
+      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 17h 04m 01s.xml">
+      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 17h 04m 27s.xml">
+      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 17h 05m 30s.xml">
+      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 17h 05m 43s.xml">
+      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JCTreeDemo1_javaCompilerParse - 2019.07.25 at 17h 17m 43s.xml">
+      <configuration name="JCTreeDemo1.javaCompilerParse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JCTreeDemo1_javaCompilerParse - 2019.07.25 at 17h 19m 25s.xml">
+      <configuration name="JCTreeDemo1.javaCompilerParse" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17874000" />
+    <option name="totallyTimeSpent" value="20028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -385,21 +349,21 @@
       <window_info anchor="right" id="Leiningen" order="4" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="13" sideWeight="0.40361446" visible="true" weight="0.23347548" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="13" sideWeight="0.40311173" visible="true" weight="0.23347548" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Structure" order="2" sideWeight="0.59638554" side_tool="true" visible="true" weight="0.23347548" />
+      <window_info anchor="right" id="Structure" order="2" sideWeight="0.59688824" side_tool="true" visible="true" weight="0.23347548" />
       <window_info anchor="right" id="Ant Build" order="12" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.35346755" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.20917226" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Messages" weight="0.32997763" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2572707" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.26957494" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49837133" visible="true" weight="0.12846482" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49837133" visible="true" weight="0.12953092" />
       <window_info anchor="bottom" id="JProfiler" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="SciView" order="8" />
@@ -456,15 +420,8 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="41" />
+      <option name="time" value="43" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="tokenizer" language="JAVA" />
-        <watch expression="((Scanner)this).token" custom="com.sun.tools.javac.parser.Scanner" />
-        <watch expression="((Scanner)this).prevToken" custom="com.sun.tools.javac.parser.Scanner" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/util/Convert.java">
@@ -693,39 +650,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/JCTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="543" selection-start-line="543" selection-end-line="543" />
-          <folding>
-            <element signature="e#11304#11305#0" expanded="true" />
-            <element signature="e#11342#11343#0" expanded="true" />
-            <element signature="e#15494#15504#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavadocTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="35" selection-start-line="35" selection-end-line="38" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavaTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1273">
-          <caret line="495" column="29" selection-start-line="495" selection-start-column="20" selection-end-line="495" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/CharSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
@@ -793,20 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/ParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="84" column="23" lean-forward="true" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Parser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Lexer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -814,10 +724,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavadocTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="442" column="28" selection-start-line="442" selection-start-column="28" selection-end-line="442" selection-end-column="28" />
+          <folding>
+            <element signature="e#2236#2237#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2483#2484#0" expanded="true" />
+            <element signature="e#2529#2530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavaTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Tokens.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="115" column="25" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="25" />
+        <state relative-caret-position="201">
+          <caret line="311" column="24" selection-start-line="311" selection-start-column="24" selection-end-line="311" selection-end-column="24" />
           <folding>
             <element signature="e#7039#7040#0" expanded="true" />
             <element signature="e#7086#7087#0" expanded="true" />
@@ -825,10 +762,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/ParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="82" column="96" selection-start-line="82" selection-start-column="86" selection-end-line="82" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/main/JavaCompiler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="627" column="46" selection-start-line="627" selection-start-column="26" selection-end-line="627" selection-end-column="46" />
+        <state relative-caret-position="369">
+          <caret line="626" column="45" lean-forward="true" selection-start-line="626" selection-start-column="45" selection-end-line="626" selection-end-column="45" />
           <folding>
             <element signature="e#18229#18245#0" expanded="true" />
             <element signature="e#20303#20324#0" expanded="true" />
@@ -841,9 +785,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavacParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="3099" column="32" selection-start-line="3099" selection-start-column="29" selection-end-line="3099" selection-end-column="32" />
+        <state relative-caret-position="258">
+          <caret line="4102" column="14" selection-start-line="4102" selection-start-column="8" selection-end-line="4102" selection-end-column="14" />
           <folding>
+            <element signature="e#19304#19305#0" expanded="true" />
+            <element signature="e#19353#19354#0" expanded="true" />
             <element signature="e#117409#117417#0" expanded="true" />
           </folding>
         </state>
@@ -851,8 +797,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/my-test/my/JCTreeTest/JCTreeDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+        <state relative-caret-position="361">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Parser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/JCTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="600" column="45" selection-start-line="600" selection-start-column="33" selection-end-line="600" selection-end-column="45" />
+          <folding>
+            <element signature="e#11304#11305#0" expanded="true" />
+            <element signature="e#11342#11343#0" expanded="true" />
+            <element signature="e#15494#15504#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

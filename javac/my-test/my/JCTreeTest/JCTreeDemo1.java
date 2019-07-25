@@ -2,9 +2,7 @@ package my.JCTreeTest;
 
 import com.sun.tools.javac.file.JavacFileManager;
 import com.sun.tools.javac.main.JavaCompiler;
-import com.sun.tools.javac.parser.Scanner;
-import com.sun.tools.javac.parser.ScannerFactory;
-import com.sun.tools.javac.parser.Tokens;
+import com.sun.tools.javac.parser.*;
 import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.util.Context;
 import static org.junit.Assert.*;
@@ -25,6 +23,19 @@ import java.nio.file.Files;
 
 public class JCTreeDemo1 {
 
+
+    public void parseTest() throws IOException{
+        Context context = new Context();
+        String s = FileUtils.readFileToString(new File("TestClass\\Test.java"), "UTF-8");
+        ParserFactory parserFactory = ParserFactory.instance(context);
+        Parser parser = parserFactory.newParser(s, false, false, true);
+
+
+    }
+
+
+
+
     @Test
     public void TokensTest() throws IOException {
         Context context = new Context();
@@ -34,14 +45,11 @@ public class JCTreeDemo1 {
         do{
             scanner.nextToken();
             Tokens.Token token = scanner.token();
-            System.out.print(token.kind+"   ");
-            System.out.println(token.kind.tag);
+            System.out.print("kind="+token.kind+"   ");
+            System.out.print("tag="+token.kind.tag+"  ");
+            System.out.println("class="+token.getClass().getSimpleName());
         }while (scanner.token().kind != Tokens.TokenKind.EOF);
-
     }
-
-
-
 
     @Test
     public void javaCompilerParse(){
