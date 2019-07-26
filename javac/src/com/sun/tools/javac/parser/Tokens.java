@@ -320,7 +320,7 @@ public class Tokens {
         }
 
         /** The token kind */
-        public final TokenKind kind;
+        public final TokenKind  kind;
 
         /** The start position of this token */
         public final int pos;

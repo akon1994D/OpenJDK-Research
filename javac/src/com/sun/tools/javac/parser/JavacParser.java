@@ -640,7 +640,7 @@ public class JavacParser implements Parser {
      */
     public JCExpression qualident(boolean allowAnnos) {
         JCExpression t = toP(F.at(token.pos).Ident(ident()));
-        while (token.kind == DOT) {
+        while (token.kind == DOT) {   //DOT .
             int pos = token.pos;
             nextToken();
             List<JCAnnotation> tyannos = null;
@@ -2965,7 +2965,7 @@ public class JavacParser implements Parser {
                                                                      T vdefs)
     {
         vdefs.append(variableDeclaratorRest(pos, mods, type, name, reqInit, dc));
-        while (token.kind == COMMA) {
+        while (token.kind == COMMA) {                                           // private String a,b,c;
             // All but last of multiple declarators subsume a comma
             storeEnd((JCTree)vdefs.last(), token.endPos);
             nextToken();
@@ -3080,10 +3080,10 @@ public class JavacParser implements Parser {
         boolean seenImport = false;
         boolean seenPackage = false;
         List<JCAnnotation> packageAnnotations = List.nil();
-        if (token.kind == MONKEYS_AT)
+        if (token.kind == MONKEYS_AT)  //包上注解 package-info.java使用
             mods = modifiersOpt();
 
-        if (token.kind == PACKAGE) {
+        if (token.kind == PACKAGE) {    // 解析包名
             seenPackage = true;
             if (mods != null) {
                 checkNoMods(mods.flags);
@@ -3091,7 +3091,7 @@ public class JavacParser implements Parser {
                 mods = null;
             }
             nextToken();
-            pid = qualident(false);
+            pid = qualident(false); //包名
             accept(SEMI);
         }
         ListBuffer<JCTree> defs = new ListBuffer<JCTree>();
@@ -3104,16 +3104,16 @@ public class JavacParser implements Parser {
                 if (token.kind == EOF)
                     break;
             }
-            if (checkForImports && mods == null && token.kind == IMPORT) {
+            if (checkForImports && mods == null && token.kind == IMPORT) {  //处理导入
                 seenImport = true;
                 defs.append(importDeclaration());
-            } else {
+            } else {   //注释和类定义
                 Comment docComment = token.comment(CommentStyle.JAVADOC);
                 if (firstTypeDecl && !seenImport && !seenPackage) {
                     docComment = firstToken.comment(CommentStyle.JAVADOC);
                     consumedToplevelDoc = true;
                 }
-                JCTree def = typeDeclaration(mods, docComment);
+                JCTree def = typeDeclaration(mods, docComment);   //可能是枚举定义或者事类定义
                 if (def instanceof JCExpressionStatement)
                     def = ((JCExpressionStatement)def).expr;
                 defs.append(def);
@@ -3143,7 +3143,7 @@ public class JavacParser implements Parser {
         int pos = token.pos;
         nextToken();
         boolean importStatic = false;
-        if (token.kind == STATIC) {
+        if (token.kind == STATIC) {  // static 导入
             checkStaticImports();
             importStatic = true;
             nextToken();
@@ -3152,16 +3152,16 @@ public class JavacParser implements Parser {
         do {
             int pos1 = token.pos;
             accept(DOT);
-            if (token.kind == STAR) {
+            if (token.kind == STAR) {   //全部导入 * 所以有 break
                 pid = to(F.at(pos1).Select(pid, names.asterisk));
                 nextToken();
                 break;
-            } else {
+            } else {                    // .
                 pid = toP(F.at(pos1).Select(pid, ident()));
             }
-        } while (token.kind == DOT);
-        accept(SEMI);
-        return toP(F.at(pos).Import(pid, importStatic));
+        } while (token.kind == DOT);   //有点的时候继续拼接
+        accept(SEMI);  // ; 结束
+        return toP(F.at(pos).Import(pid, importStatic));  //构造import JCTree pos开始的地址；pid名称，静态导入
     }
 
     /** TypeDeclaration = ClassOrInterfaceOrEnumDeclaration
@@ -3177,9 +3177,27 @@ public class JavacParser implements Parser {
         }
     }
 
+    /**
+     * https://docs.oracle.com/javase/specs/jls/se8/html/jls-8.html java 类相关的定义格式
+     * ClassDeclaration:
+     *      NormalClassDeclaration
+     *      EnumDeclaration
+     * NormalClassDeclaration
+     *      {ClassModifier} class Identifier [TypeParameters] [Superclass] [Superinterfaces] ClassBody
+     * EnumDeclaration:
+     *      {ClassModifier} enum Identifier [Superinterfaces] EnumBody
+     * https://docs.oracle.com/javase/specs/jls/se8/html/jls-9.html  java接口定义格式
+     * InterfaceDeclaration:
+     *      NormalInterfaceDeclaration
+     *      AnnotationTypeDeclaration
+     * NormalInterfaceDeclaration:
+     *      {InterfaceModifier} interface Identifier [TypeParameters] [ExtendsInterfaces] InterfaceBody
+     * AnnotationTypeDeclaration:
+     *      {InterfaceModifier} @ interface Identifier AnnotationTypeBody
+     */
     /** ClassOrInterfaceOrEnumDeclaration = ModifiersOpt
      *           (ClassDeclaration | InterfaceDeclaration | EnumDeclaration)
-     *  @param mods     Any modifiers starting the class or interface declaration
+     *  @param mods     Any modifiers starting the class or interface declaration   Modifier！！！
      *  @param dc       The documentation comment for the class, or null.
      */
     JCStatement classOrInterfaceOrEnumDeclaration(JCModifiers mods, Comment dc) {
@@ -3223,6 +3241,8 @@ public class JavacParser implements Parser {
 
     /** ClassDeclaration = CLASS Ident TypeParametersOpt [EXTENDS Type]
      *                     [IMPLEMENTS TypeList] ClassBody
+     *  NormalClassDeclaration
+     *      {ClassModifier} class Identifier [TypeParameters] [Superclass] [Superinterfaces] ClassBody
      *  @param mods    The modifiers starting the class declaration
      *  @param dc       The documentation comment for the class, or null.
      */
@@ -3246,7 +3266,7 @@ public class JavacParser implements Parser {
         List<JCTree> defs = classOrInterfaceBody(name, false);
         JCClassDecl result = toP(F.at(pos).ClassDef(
             mods, name, typarams, extending, implementing, defs));
-        attach(result, dc);
+        attach(result, dc);  // 处理注释
         return result;
     }
 
@@ -3451,14 +3471,14 @@ public class JavacParser implements Parser {
                 return List.<JCTree>of(block(pos, mods.flags));
             } else {
                 pos = token.pos;
-                List<JCTypeParameter> typarams = typeParametersOpt();
+                List<JCTypeParameter> typarams = typeParametersOpt();    //泛型参数
                 // if there are type parameters but no modifiers, save the start
                 // position of the method in the modifiers.
                 if (typarams.nonEmpty() && mods.pos == Position.NOPOS) {
                     mods.pos = pos;
                     storeEnd(mods, pos);
                 }
-                List<JCAnnotation> annosAfterParams = annotationsOpt(Tag.ANNOTATION);
+                List<JCAnnotation> annosAfterParams = annotationsOpt(Tag.ANNOTATION);   // 注解  其实method 可以再限定词后面
 
                 if (annosAfterParams.nonEmpty()) {
                     checkAnnotationsAfterTypeParams(annosAfterParams.head.pos);
@@ -3470,7 +3490,7 @@ public class JavacParser implements Parser {
                 Token tk = token;
                 pos = token.pos;
                 JCExpression type;
-                boolean isVoid = token.kind == VOID;
+                boolean isVoid = token.kind == VOID;                                // 返回类型处理
                 if (isVoid) {
                     type = to(F.at(pos).TypeIdent(TypeTag.VOID));
                     nextToken();
@@ -3489,18 +3509,18 @@ public class JavacParser implements Parser {
                 } else {
                     pos = token.pos;
                     Name name = ident();
-                    if (token.kind == LPAREN) {
+                    if (token.kind == LPAREN) {                     //定义方法  方法名称后面肯定是 (
                         return List.of(methodDeclaratorRest(
                             pos, mods, type, name, typarams,
                             isInterface, isVoid, dc));
-                    } else if (!isVoid && typarams.isEmpty()) {
+                    } else if (!isVoid && typarams.isEmpty()) {    //定义 field
                         List<JCTree> defs =
                             variableDeclaratorsRest(pos, mods, type, name, isInterface, dc,
                                                     new ListBuffer<JCTree>()).toList();
                         storeEnd(defs.last(), token.endPos);
                         accept(SEMI);
                         return defs;
-                    } else {
+                    } else {                                        // 错误
                         pos = token.pos;
                         List<JCTree> err = isVoid
                             ? List.<JCTree>of(toP(F.at(pos).MethodDef(mods, name, type, typarams,

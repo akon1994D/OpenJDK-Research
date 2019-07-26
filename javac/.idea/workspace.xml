@@ -9,44 +9,105 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/javac$JCTreeDemo1_TokensTest.ic" NAME="JCTreeDemo1.TokensTest Coverage Results" MODIFIED="1564103718038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>my.JCTreeTest.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="javac" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="JCTreeDemo1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/my-test/my/JCTreeTest/JCTreeDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="32" selection-start-line="32" selection-end-line="32" />
+            <state relative-caret-position="252">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Parser.java">
+      <file leaf-file-name="Test.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/lib/junit-4.10.jar!/org/junit/Test.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="16" />
+            <state relative-caret-position="147">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JCTree.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/JCTree.java">
+      <file leaf-file-name="ElementType.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/annotation/ElementType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="600" column="45" selection-start-line="600" selection-start-column="33" selection-end-line="600" selection-end-column="45" />
+            <state relative-caret-position="256">
+              <caret line="80" column="10" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestClass/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
-                <element signature="e#11304#11305#0" expanded="true" />
-                <element signature="e#11342#11343#0" expanded="true" />
-                <element signature="e#15494#15504#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JavacParser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavacParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="2966" column="81" lean-forward="true" selection-start-line="2966" selection-start-column="81" selection-end-line="2966" selection-end-column="81" />
+              <folding>
+                <element signature="e#18714#18715#0" expanded="true" />
+                <element signature="e#18764#18765#0" expanded="true" />
+                <element signature="e#18997#18998#0" expanded="true" />
+                <element signature="e#19038#19039#0" expanded="true" />
+                <element signature="e#19304#19305#0" expanded="true" />
+                <element signature="e#19353#19354#0" expanded="true" />
+                <element signature="e#27193#27194#0" expanded="true" />
+                <element signature="e#27226#27227#0" expanded="true" />
+                <element signature="e#103834#103848#0" expanded="true" />
+                <element signature="e#104594#104595#0" expanded="true" />
+                <element signature="e#104635#104636#0" expanded="true" />
+                <element signature="e#104780#104794#0" expanded="true" />
+                <element signature="e#129330#129338#0" expanded="true" />
+                <element signature="e#130912#130920#0" expanded="true" />
+                <element signature="e#131248#131256#0" expanded="true" />
+                <element signature="e#134286#134294#0" expanded="true" />
+                <element signature="e#134386#134402#0" expanded="true" />
+                <element signature="e#134414#134428#0" expanded="true" />
+                <element signature="e#134521#134529#0" expanded="true" />
+                <element signature="e#138310#138327#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tokens.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Tokens.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="188" column="8" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
+              <folding>
+                <element signature="e#7039#7040#0" expanded="true" />
+                <element signature="e#7086#7087#0" expanded="true" />
+                <element signature="e#10755#10756#0" expanded="true" />
+                <element signature="e#10820#10821#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -65,8 +126,14 @@
       <find>readToken</find>
       <find>tokenizer</find>
       <find>getCharContent</find>
-      <find>parseCompilationUnit</find>
       <find>public</find>
+      <find>allowEnums</find>
+      <find>classOrInterfaceOrEnumDeclaration</find>
+      <find>parseCompilationUnit`</find>
+      <find>stopAtMemberDecl</find>
+      <find>Member</find>
+      <find>method</find>
+      <find>parseCompilationUnit</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -74,10 +141,10 @@
       <list>
         <option value="$PROJECT_DIR$/my-test/my/test/JavacStarter.java" />
         <option value="$PROJECT_DIR$/src/com/sun/tools/javac/tree/Pretty.java" />
-        <option value="$PROJECT_DIR$/TestClass/Test.java" />
         <option value="$PROJECT_DIR$/src/com/sun/tools/javac/parser/Tokens.java" />
-        <option value="$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavacParser.java" />
+        <option value="$PROJECT_DIR$/TestClass/Test.java" />
         <option value="$PROJECT_DIR$/my-test/my/JCTreeTest/JCTreeDemo1.java" />
+        <option value="$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavacParser.java" />
       </list>
     </option>
   </component>
@@ -109,8 +176,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -128,6 +193,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -159,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JCTreeDemo1.javaCompilerParse">
+  <component name="RunManager" selected="JUnit.JCTreeDemo1.parseTest">
     <configuration name="JavacStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="my.test.JavacStarter" />
       <module name="javac" />
@@ -236,6 +303,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="JCTreeDemo1.parseTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javac" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="my.JCTreeTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="my.JCTreeTest" />
+      <option name="MAIN_CLASS_NAME" value="my.JCTreeTest.JCTreeDemo1" />
+      <option name="METHOD_NAME" value="parseTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -278,14 +368,19 @@
       <item itemvalue="JUnit.JCTreeDemo1.javaCompilerParse" />
       <item itemvalue="Application.JavacStarter" />
       <item itemvalue="JUnit.JCTreeDemo1.TokensTest" />
+      <item itemvalue="JUnit.JCTreeDemo1.parseTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.JCTreeDemo1.javaCompilerParse" />
+        <item itemvalue="JUnit.JCTreeDemo1.parseTest" />
         <item itemvalue="JUnit.JCTreeDemo1.TokensTest" />
+        <item itemvalue="JUnit.JCTreeDemo1.javaCompilerParse" />
         <item itemvalue="Application.JavacStarter" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -297,119 +392,122 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1564017909734</updated>
-      <workItem from="1564017911124" duration="20028000" />
+      <workItem from="1564017911124" duration="20186000" />
+      <workItem from="1564101279205" duration="17969000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 16h 56m 44s.xml">
+    <history-entry file="JCTreeDemo1_parseTest - 2019.07.26 at 11h 27m 15s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JCTreeDemo1_parseTest - 2019.07.26 at 14h 31m 11s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.26 at 14h 31m 19s.xml">
       <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 16h 57m 12s.xml">
-      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.07.26 at 14h 38m 02s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 16h 57m 44s.xml">
-      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.07.26 at 15h 34m 09s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 16h 58m 03s.xml">
-      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.07.26 at 15h 46m 51s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 17h 04m 01s.xml">
-      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.07.26 at 15h 49m 27s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 17h 04m 27s.xml">
-      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.07.26 at 15h 51m 18s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 17h 05m 30s.xml">
-      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.07.26 at 15h 57m 58s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_TokensTest - 2019.07.25 at 17h 05m 43s.xml">
-      <configuration name="JCTreeDemo1.TokensTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JCTreeDemo1_javaCompilerParse - 2019.07.25 at 17h 17m 43s.xml">
-      <configuration name="JCTreeDemo1.javaCompilerParse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="JCTreeDemo1_javaCompilerParse - 2019.07.25 at 17h 19m 25s.xml">
-      <configuration name="JCTreeDemo1.javaCompilerParse" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.07.26 at 15h 59m 56s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20028000" />
+    <option name="totallyTimeSpent" value="38155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="FindBugs-IDEA" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="REPL" order="3" side_tool="true" />
       <window_info anchor="right" id="Leiningen" order="4" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="13" sideWeight="0.40311173" visible="true" weight="0.23347548" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="13" sideWeight="0.40314135" weight="0.20469083" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Structure" order="2" sideWeight="0.59688824" side_tool="true" visible="true" weight="0.23347548" />
+      <window_info anchor="right" id="Structure" order="2" sideWeight="0.5968586" side_tool="true" weight="0.20469083" />
       <window_info anchor="right" id="Ant Build" order="12" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.20917226" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3210291" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.32997763" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32997763" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26957494" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49837133" visible="true" weight="0.12953092" />
-      <window_info anchor="bottom" id="JProfiler" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3557047" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5978593" side_tool="true" weight="0.23347548" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49837133" weight="0.13006397" />
+      <window_info anchor="bottom" id="JProfiler" order="7" />
       <window_info anchor="right" id="SciView" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" sideWeight="0.50162864" side_tool="true" weight="0.18123667" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="11" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" x="319" y="331" width="1920" height="1040" id="Byte Code Viewer" order="10" type="FLOATING" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="11" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" x="319" y="331" width="1920" height="1040" id="Byte Code Viewer" order="10" type="FLOATING" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="bottom" id="FindBugs-IDEA" order="0" />
+      <window_info anchor="right" id="Ant Build" order="13" weight="0.25" />
+      <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
       <window_info id="Designer" order="1" />
-      <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.2572707" />
+      <window_info anchor="right" id="Palette" order="1" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="11" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3557047" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="0" sideWeight="0.5978593" side_tool="true" weight="0.23347548" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="5" sideWeight="0.50162864" side_tool="true" weight="0.18123667" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info id="Capture Tool" order="0" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.32997763" />
-      <window_info active="true" anchor="right" content_ui="combo" id="Hierarchy" order="13" sideWeight="0.4049217" visible="true" weight="0.23347548" />
-      <window_info anchor="right" x="319" y="331" width="1920" height="1040" id="Byte Code Viewer" order="10" type="FLOATING" />
-      <window_info anchor="bottom" id="JProfiler" order="4" />
-      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
-      <window_info anchor="right" id="Maven Projects" order="1" />
-      <window_info anchor="bottom" id="Find" order="8" />
-      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49837133" visible="true" weight="0.12899786" />
-      <window_info anchor="right" id="SciView" order="8" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="bottom" id="Message" order="7" />
-      <window_info anchor="right" id="Leiningen" order="4" />
-      <window_info anchor="bottom" id="TODO" order="13" />
-      <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Structure" order="2" sideWeight="0.5950783" side_tool="true" visible="true" weight="0.23347548" />
-      <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.3836689" />
-      <window_info anchor="right" id="REPL" order="3" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="8" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="12" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32997763" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="14" sideWeight="0.40314135" visible="true" weight="0.20469083" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49837133" visible="true" weight="0.13059701" />
+      <window_info anchor="right" x="319" y="331" width="1920" height="1040" id="Byte Code Viewer" order="11" type="FLOATING" />
+      <window_info anchor="bottom" id="JProfiler" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="9" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Leiningen" order="5" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Structure" order="3" sideWeight="0.5968586" side_tool="true" visible="true" weight="0.20469083" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.14541388" />
+      <window_info anchor="right" id="REPL" order="4" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,69 +518,16 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="43" />
+      <option name="time" value="56" />
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="((JavacParser)this).token" custom="com.sun.tools.javac.parser.JavacParser" />
+        <watch expression="token" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/util/Convert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="159" column="25" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/util/Name.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="146" column="58" lean-forward="true" selection-start-line="146" selection-start-column="58" selection-end-line="146" selection-end-column="58" />
-          <folding>
-            <element signature="e#4631#4632#0" expanded="true" />
-            <element signature="e#4722#4723#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/util/SharedNameTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="160" column="11" lean-forward="true" selection-start-line="160" selection-start-column="11" selection-end-line="160" selection-end-column="11" />
-          <folding>
-            <element signature="e#5654#5655#0" expanded="true" />
-            <element signature="e#5710#5711#0" expanded="true" />
-            <element signature="e#5768#5769#0" expanded="true" />
-            <element signature="e#5830#5831#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/source/tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="38" column="2" lean-forward="true" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/source/tree/BinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/Pretty.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="702" column="9" lean-forward="true" selection-start-line="702" selection-start-column="9" selection-end-line="702" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/source/tree/CaseTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="53" column="8" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sun/source/tree/AnnotatedTypeTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -623,33 +668,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TestClass/Test.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/util/Position.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="103" column="28" selection-start-line="103" selection-start-column="28" selection-end-line="103" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/TreeMaker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="121" column="29" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestClass/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TestClass/Test.class" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/CharSequence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="604">
@@ -696,10 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
           <caret line="223" column="52" selection-start-line="223" selection-start-column="52" selection-end-line="223" selection-end-column="52" />
-          <folding>
-            <element signature="e#6787#6788#0" expanded="true" />
-            <element signature="e#6825#6826#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,38 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavaTokenizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="44" column="26" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="46" column="15" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Tokens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="311" column="24" selection-start-line="311" selection-start-column="24" selection-end-line="311" selection-end-column="24" />
-          <folding>
-            <element signature="e#7039#7040#0" expanded="true" />
-            <element signature="e#7086#7087#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/ParserFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="82" column="96" selection-start-line="82" selection-start-column="86" selection-end-line="82" selection-end-column="96" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/main/JavaCompiler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
@@ -783,40 +766,165 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavacParser.java">
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.10.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="4102" column="14" selection-start-line="4102" selection-start-column="8" selection-end-line="4102" selection-end-column="14" />
+        <state relative-caret-position="206">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavaTokenizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="449" column="17" selection-start-line="449" selection-start-column="17" selection-end-line="449" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="114" column="33" selection-start-line="114" selection-start-column="33" selection-end-line="114" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/util/IntHashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="111" column="15" selection-start-line="111" selection-start-column="15" selection-end-line="111" selection-end-column="15" />
           <folding>
-            <element signature="e#19304#19305#0" expanded="true" />
-            <element signature="e#19353#19354#0" expanded="true" />
-            <element signature="e#117409#117417#0" expanded="true" />
+            <element signature="e#2857#2858#0" expanded="true" />
+            <element signature="e#2908#2909#0" expanded="true" />
+            <element signature="e#4012#4013#0" expanded="true" />
+            <element signature="e#4057#4058#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/my-test/my/JCTreeTest/JCTreeDemo1.java">
+    <entry file="file://$PROJECT_DIR$/TestClass/tonken流.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/TreeMaker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="273">
+          <caret line="212" column="14" selection-start-line="212" selection-start-column="14" selection-end-line="212" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/code/Source.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="145" column="28" lean-forward="true" selection-start-line="145" selection-start-column="25" selection-end-line="145" selection-end-column="31" />
+          <folding>
+            <element signature="e#5051#5052#0" expanded="true" />
+            <element signature="e#5096#5097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/ParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="84" column="24" lean-forward="true" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="64" column="12" lean-forward="true" selection-start-line="64" selection-start-column="4" selection-end-line="64" selection-end-column="16" />
+        <state relative-caret-position="273">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/JCTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="600" column="45" selection-start-line="600" selection-start-column="33" selection-end-line="600" selection-end-column="45" />
+        <state relative-caret-position="238">
+          <caret line="273" column="8" selection-start-line="273" selection-start-column="8" selection-end-line="273" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/util/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/Tokens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="188" column="8" selection-start-line="188" selection-start-column="8" selection-end-line="188" selection-end-column="8" />
           <folding>
-            <element signature="e#11304#11305#0" expanded="true" />
-            <element signature="e#11342#11343#0" expanded="true" />
-            <element signature="e#15494#15504#0" expanded="true" />
+            <element signature="e#7039#7040#0" expanded="true" />
+            <element signature="e#7086#7087#0" expanded="true" />
+            <element signature="e#10755#10756#0" expanded="true" />
+            <element signature="e#10820#10821#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/junit-4.10.jar!/org/junit/Test.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-test/my/JCTreeTest/JCTreeDemo1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="80" column="10" selection-start-line="80" selection-start-column="4" selection-end-line="80" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestClass/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/parser/JavacParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="2966" column="81" lean-forward="true" selection-start-line="2966" selection-start-column="81" selection-end-line="2966" selection-end-column="81" />
+          <folding>
+            <element signature="e#18714#18715#0" expanded="true" />
+            <element signature="e#18764#18765#0" expanded="true" />
+            <element signature="e#18997#18998#0" expanded="true" />
+            <element signature="e#19038#19039#0" expanded="true" />
+            <element signature="e#19304#19305#0" expanded="true" />
+            <element signature="e#19353#19354#0" expanded="true" />
+            <element signature="e#27193#27194#0" expanded="true" />
+            <element signature="e#27226#27227#0" expanded="true" />
+            <element signature="e#103834#103848#0" expanded="true" />
+            <element signature="e#104594#104595#0" expanded="true" />
+            <element signature="e#104635#104636#0" expanded="true" />
+            <element signature="e#104780#104794#0" expanded="true" />
+            <element signature="e#129330#129338#0" expanded="true" />
+            <element signature="e#130912#130920#0" expanded="true" />
+            <element signature="e#131248#131256#0" expanded="true" />
+            <element signature="e#134286#134294#0" expanded="true" />
+            <element signature="e#134386#134402#0" expanded="true" />
+            <element signature="e#134414#134428#0" expanded="true" />
+            <element signature="e#134521#134529#0" expanded="true" />
+            <element signature="e#138310#138327#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,12 +1,13 @@
-
 package my.test;
 
 import java.util.ArrayList;
 import java.util.List;
-
+;
 public class Test {
 
-    void spin() {
+    private String a;
+
+    <T,R> void spin() {
         
         Test aTest = new Test();
 		int i = 10;

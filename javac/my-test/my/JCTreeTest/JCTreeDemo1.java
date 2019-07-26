@@ -7,6 +7,7 @@ import com.sun.tools.javac.tree.JCTree;
 import com.sun.tools.javac.util.Context;
 import static org.junit.Assert.*;
 
+import com.sun.tools.javac.util.List;
 import org.apache.commons.io.FileUtils;
 import org.junit.Test;
 
@@ -24,13 +25,19 @@ import java.nio.file.Files;
 public class JCTreeDemo1 {
 
 
+    @Test
     public void parseTest() throws IOException{
         Context context = new Context();
+        JavacFileManager.preRegister(context);
         String s = FileUtils.readFileToString(new File("TestClass\\Test.java"), "UTF-8");
         ParserFactory parserFactory = ParserFactory.instance(context);
         Parser parser = parserFactory.newParser(s, false, false, true);
-
-
+        JCTree.JCCompilationUnit jcCompilationUnit = parser.parseCompilationUnit();
+        List<JCTree> defs = jcCompilationUnit.defs;
+        for (JCTree def : defs) {
+            System.out.println("======");
+            System.out.println(def);
+        };
     }
 
 
