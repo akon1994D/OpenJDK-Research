@@ -22,8 +22,21 @@
       <file leaf-file-name="JCTreeDemo1.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/my-test/my/JCTreeTest/JCTreeDemo1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="56" selection-start-line="56" selection-end-line="61" selection-end-column="36" />
+            <state relative-caret-position="372">
+              <caret line="102" column="68" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JCTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/JCTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="821" column="32" selection-start-line="821" selection-start-column="28" selection-end-line="821" selection-end-column="32" />
+              <folding>
+                <element signature="e#12594#12595#0" expanded="true" />
+                <element signature="e#12621#12622#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -75,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/com/sun/tools/javac/main/JavaCompiler.java" />
         <option value="$PROJECT_DIR$/src/com/sun/tools/javac/comp/Todo.java" />
         <option value="$PROJECT_DIR$/TestClass/Test.java" />
+        <option value="$PROJECT_DIR$/TestClass/Test2.java" />
         <option value="$PROJECT_DIR$/my-test/my/JCTreeTest/JCTreeDemo1.java" />
       </list>
     </option>
@@ -98,8 +112,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="4" />
-    <option name="width" value="1480" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -142,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../java-lambda-forSicp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -152,8 +166,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\123456\Desktop\AAA\JVM\javac\OpenJDK-Research\javac\lib" />
       <recent name="C:\Users\123456\Desktop\AAA\JVM\javac\OpenJDK-Research\javac\TestClass" />
+      <recent name="C:\Users\123456\Desktop\AAA\JVM\javac\OpenJDK-Research\javac\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -168,7 +182,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JCTreeDemo1.javacPathFileManagerTest">
+  <component name="RunManager" selected="JUnit.JCTreeDemo1.parseTest">
     <configuration name="JavacStarter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="my.test.JavacStarter" />
       <module name="javac" />
@@ -338,11 +352,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.JCTreeDemo1.parseTest" />
         <item itemvalue="JUnit.JCTreeDemo1.javacPathFileManagerTest" />
         <item itemvalue="JUnit.JCTreeDemo1.javaCompilerParse" />
         <item itemvalue="JUnit.JCTreeDemo1.complic" />
         <item itemvalue="Application.JavacStarter" />
-        <item itemvalue="JUnit.JCTreeDemo1.parseTest" />
       </list>
     </recent_temporary>
   </component>
@@ -366,47 +380,48 @@
       <workItem from="1564558244715" duration="766000" />
       <workItem from="1564619408814" duration="1806000" />
       <workItem from="1564706338354" duration="11241000" />
-      <workItem from="1564965328101" duration="2437000" />
+      <workItem from="1564965328101" duration="5132000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JCTreeDemo1_javacPathFileManagerTest - 2019.08.02 at 11h 07m 39s.xml">
-      <configuration name="JCTreeDemo1.javacPathFileManagerTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.08.05 at 15h 32m 18s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_javacPathFileManagerTest - 2019.08.02 at 11h 09m 18s.xml">
-      <configuration name="JCTreeDemo1.javacPathFileManagerTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.08.05 at 15h 32m 30s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_javacPathFileManagerTest - 2019.08.02 at 11h 24m 27s.xml">
-      <configuration name="JCTreeDemo1.javacPathFileManagerTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.08.05 at 15h 33m 24s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_javacPathFileManagerTest - 2019.08.02 at 11h 25m 02s.xml">
-      <configuration name="JCTreeDemo1.javacPathFileManagerTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.08.05 at 15h 40m 14s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_javacPathFileManagerTest - 2019.08.02 at 11h 25m 26s.xml">
-      <configuration name="JCTreeDemo1.javacPathFileManagerTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.08.05 at 15h 40m 27s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_javacPathFileManagerTest - 2019.08.02 at 11h 28m 40s.xml">
-      <configuration name="JCTreeDemo1.javacPathFileManagerTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.08.05 at 15h 40m 28s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_javacPathFileManagerTest - 2019.08.02 at 11h 28m 58s.xml">
-      <configuration name="JCTreeDemo1.javacPathFileManagerTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.08.05 at 15h 40m 43s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_javacPathFileManagerTest - 2019.08.02 at 11h 29m 50s.xml">
-      <configuration name="JCTreeDemo1.javacPathFileManagerTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.08.05 at 15h 41m 48s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_javacPathFileManagerTest - 2019.08.02 at 11h 31m 48s.xml">
-      <configuration name="JCTreeDemo1.javacPathFileManagerTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.08.05 at 15h 42m 04s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JCTreeDemo1_javacPathFileManagerTest - 2019.08.02 at 11h 35m 02s.xml">
-      <configuration name="JCTreeDemo1.javacPathFileManagerTest" configurationId="JUnit" />
+    <history-entry file="JCTreeDemo1_parseTest - 2019.08.05 at 15h 42m 32s.xml">
+      <configuration name="JCTreeDemo1.parseTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83688000" />
+    <option name="totallyTimeSpent" value="86383000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
@@ -417,31 +432,31 @@
       <window_info anchor="right" id="Leiningen" order="4" />
       <window_info id="Capture Tool" order="0" />
       <window_info id="Designer" order="1" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="13" sideWeight="0.4" visible="true" weight="0.20469083" />
       <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Structure" order="2" sideWeight="0.59843403" side_tool="true" visible="true" weight="0.15458423" />
+      <window_info anchor="right" id="Structure" order="2" sideWeight="0.6" side_tool="true" visible="true" weight="0.20469083" />
       <window_info anchor="right" id="Ant Build" order="12" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6993604" weight="0.31431767" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32997763" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.63432837" weight="0.36689037" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.63432837" visible="true" weight="0.36241612" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" sideWeight="0.49837133" visible="true" weight="0.141258" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49837133" visible="true" weight="0.16791044" />
       <window_info anchor="bottom" id="JProfiler" order="7" />
       <window_info anchor="right" id="SciView" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info id="Favorites" order="5" sideWeight="0.50162864" side_tool="true" weight="0.18123667" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32997763" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="11" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="14" sideWeight="0.5978593" side_tool="true" weight="0.23347548" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" x="319" y="331" width="1920" height="1040" id="Byte Code Viewer" order="10" type="FLOATING" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="13" sideWeight="0.401566" visible="true" weight="0.20469083" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
@@ -502,13 +517,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/tools/JavaFileObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="45" column="31" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/invoke/MethodHandles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -790,17 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/JCTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="452" column="21" selection-start-line="452" selection-start-column="21" selection-end-line="452" selection-end-column="21" />
-          <folding>
-            <element signature="e#12594#12595#0" expanded="true" />
-            <element signature="e#12621#12622#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/comp/Annotate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -809,13 +806,6 @@
             <element signature="e#4145#4146#0" expanded="true" />
             <element signature="e#4173#4174#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestClass/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -875,10 +865,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/TestClass/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#296#297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestClass/Test2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/sun/tools/javac/tree/JCTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="821" column="32" selection-start-line="821" selection-start-column="28" selection-end-line="821" selection-end-column="32" />
+          <folding>
+            <element signature="e#12594#12595#0" expanded="true" />
+            <element signature="e#12621#12622#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/my-test/my/JCTreeTest/JCTreeDemo1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="56" selection-start-line="56" selection-end-line="61" selection-end-column="36" />
+        <state relative-caret-position="372">
+          <caret line="102" column="68" selection-start-line="102" selection-start-column="64" selection-end-line="102" selection-end-column="68" />
         </state>
       </provider>
     </entry>

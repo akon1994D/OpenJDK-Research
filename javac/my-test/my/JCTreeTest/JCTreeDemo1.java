@@ -82,14 +82,30 @@ public class JCTreeDemo1 {
     public void parseTest() throws IOException{
         Context context = new Context();
         JavacFileManager.preRegister(context);
-        String s = FileUtils.readFileToString(new File("TestClass\\Test.java"), "UTF-8");
+        String s = FileUtils.readFileToString(new File("TestClass\\Test2.java"), "UTF-8");
         ParserFactory parserFactory = ParserFactory.instance(context);
         Parser parser = parserFactory.newParser(s, false, false, true);
         JCTree.JCCompilationUnit jcCompilationUnit = parser.parseCompilationUnit();
         List<JCTree> defs = jcCompilationUnit.defs;
         for (JCTree def : defs) {
-            System.out.println("======");
-            System.out.println(def);
+            if(def instanceof JCTree.JCClassDecl){
+                List<JCTree> defs1 = ((JCTree.JCClassDecl) def).defs;
+                for (JCTree jcTree : defs1) {
+                    if(jcTree instanceof JCTree.JCMethodDecl){
+                        JCTree.JCMethodDecl methodDecl = (JCTree.JCMethodDecl) jcTree;
+                        JCTree.JCBlock body = methodDecl.body;
+                        List<JCTree.JCStatement> statements = body.getStatements();
+                        for (JCTree.JCStatement statement : statements) {
+                            if(statement instanceof JCTree.JCVariableDecl){
+                                JCTree.JCVariableDecl varstatement = (JCTree.JCVariableDecl) statement;
+                                System.out.println(varstatement.name);
+                                System.out.println(varstatement.vartype);
+                                System.out.println(varstatement.init);
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 
