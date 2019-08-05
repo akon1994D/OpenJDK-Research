@@ -17,6 +17,7 @@ kind=token.identifier   tag=NAMED  class=NamedToken
 kind='.'   tag=DEFAULT  class=Token
 kind=token.identifier   tag=NAMED  class=NamedToken
 kind=';'   tag=DEFAULT  class=Token
+kind=';'   tag=DEFAULT  class=Token
 kind=public   tag=DEFAULT  class=Token
 kind=class   tag=DEFAULT  class=Token
 kind=token.identifier   tag=NAMED  class=NamedToken

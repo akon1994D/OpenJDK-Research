@@ -873,7 +873,7 @@ public class JavaCompiler {
      * The phases following annotation processing: attribution,
      * desugar, and finally code generation.
      */
-    private void compile2() {
+    public void compile2() {
         try {
             switch (compilePolicy) {
             case ATTR_ONLY:

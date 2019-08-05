@@ -2268,7 +2268,7 @@ public class JavacParser implements Parser {
         accept(LBRACE);
         List<JCStatement> stats = blockStatements();
         JCBlock t = F.at(pos).Block(flags, stats);
-        while (token.kind == CASE || token.kind == DEFAULT) {
+        while (token.kind == CASE || token.kind == DEFAULT) {  // case 语句块
             syntaxError("orphaned", token.kind);
             switchBlockStatementGroups();
         }
@@ -2294,7 +2294,7 @@ public class JavacParser implements Parser {
     List<JCStatement> blockStatements() {
         //todo: skip to anchor on error(?)
         ListBuffer<JCStatement> stats = new ListBuffer<JCStatement>();
-        while (true) {
+        while (true) {              //  一个循环，遍历所有的语句；
             List<JCStatement> stat = blockStatement();
             if (stat.isEmpty()) {
                 return stats.toList();
@@ -2438,7 +2438,7 @@ public class JavacParser implements Parser {
         int pos = token.pos;
         switch (token.kind) {
         case LBRACE:
-            return block();
+            return block();  // 递归了
         case IF: {
             nextToken();
             JCExpression cond = parExpression();
@@ -3251,21 +3251,21 @@ public class JavacParser implements Parser {
         accept(CLASS);
         Name name = ident();
 
-        List<JCTypeParameter> typarams = typeParametersOpt();
+        List<JCTypeParameter> typarams = typeParametersOpt();  //泛型
 
-        JCExpression extending = null;
+        JCExpression extending = null;      //继承
         if (token.kind == EXTENDS) {
             nextToken();
             extending = parseType();
         }
-        List<JCExpression> implementing = List.nil();
+        List<JCExpression> implementing = List.nil();       //接口
         if (token.kind == IMPLEMENTS) {
             nextToken();
             implementing = typeList();
         }
-        List<JCTree> defs = classOrInterfaceBody(name, false);
+        List<JCTree> defs = classOrInterfaceBody(name, false);          //结构体 {}
         JCClassDecl result = toP(F.at(pos).ClassDef(
-            mods, name, typarams, extending, implementing, defs));
+            mods, name, typarams, extending, implementing, defs)); // mods className 泛型参数 继承 接口 结构体
         attach(result, dc);  // 处理注释
         return result;
     }
@@ -3464,12 +3464,12 @@ public class JavacParser implements Parser {
             if (token.kind == CLASS ||
                 token.kind == INTERFACE ||
                 allowEnums && token.kind == ENUM) {
-                return List.<JCTree>of(classOrInterfaceOrEnumDeclaration(mods, dc));
-            } else if (token.kind == LBRACE && !isInterface &&
+                return List.<JCTree>of(classOrInterfaceOrEnumDeclaration(mods, dc));  //递归定义了
+            } else if (token.kind == LBRACE && !isInterface &&                          // 静态块
                        (mods.flags & Flags.StandardFlags & ~Flags.STATIC) == 0 &&
                        mods.annotations.isEmpty()) {
                 return List.<JCTree>of(block(pos, mods.flags));
-            } else {
+            } else {                        //成员变量 和 成员函数
                 pos = token.pos;
                 List<JCTypeParameter> typarams = typeParametersOpt();    //泛型参数
                 // if there are type parameters but no modifiers, save the start
@@ -3554,19 +3554,19 @@ public class JavacParser implements Parser {
         try {
             this.receiverParam = null;
             // Parsing formalParameters sets the receiverParam, if present
-            List<JCVariableDecl> params = formalParameters();
-            if (!isVoid) type = bracketsOpt(type);
-            List<JCExpression> thrown = List.nil();
+            List<JCVariableDecl> params = formalParameters();  //参数
+            if (!isVoid) type = bracketsOpt(type);          //返回值
+            List<JCExpression> thrown = List.nil();         // 异常
             if (token.kind == THROWS) {
                 nextToken();
                 thrown = qualidentList();
             }
             JCBlock body = null;
             JCExpression defaultValue;
-            if (token.kind == LBRACE) {
+            if (token.kind == LBRACE) {         //方法体
                 body = block();
                 defaultValue = null;
-            } else {
+            } else {                //?????
                 if (token.kind == DEFAULT) {
                     accept(DEFAULT);
                     defaultValue = annotationValue();
